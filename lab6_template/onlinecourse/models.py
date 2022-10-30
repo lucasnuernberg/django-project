@@ -1,5 +1,8 @@
 import sys
 from django.utils.timezone import now
+from django.contrib.auth.models import User
+
+
 try:
     from django.db import models
 except Exception:
@@ -8,6 +11,7 @@ except Exception:
 
 from django.conf import settings
 import uuid
+
 
 
 # Instructor model

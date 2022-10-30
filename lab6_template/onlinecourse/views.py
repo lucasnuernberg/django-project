@@ -17,6 +17,7 @@ logger = logging.getLogger(__name__)
 # Create authentication related views
 
 
+
 def registration_request(request):
     context = {}
     if request.method == 'GET':

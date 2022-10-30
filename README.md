@@ -1,2 +1,2 @@
 # django-project
-Django project created with IBM course
+Django projects created with IBM course
